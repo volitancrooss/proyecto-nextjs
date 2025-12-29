@@ -1,0 +1,39 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],   
+});
+
+export const metadata: Metadata = {
+  title: "Mi Portfolio - Desarrollador Web",
+  description: "Portfolio profesional de desarrollador web. Especializado en React, Next.js y TypeScript.",
+  icons: {
+    icon: '/logov.jpg',
+    shortcut: '/logov.jpg',
+    apple: '/logov.jpg',
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
