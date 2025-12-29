@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   title: "Mi Portfolio - Desarrollador Web",
   description: "Portfolio profesional de desarrollador web. Especializado en React, Next.js y TypeScript.",
   icons: {
-    icon: '/logov.jpg',
-    shortcut: '/logov.jpg',
-    apple: '/logov.jpg',
+    icon: '/icon.ico',
+    shortcut: '/icon.ico',
+    apple: '/icon.ico',
   },
 };
 
