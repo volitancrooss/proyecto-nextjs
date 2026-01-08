@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <p className="text-blue-400 text-lg">Bienvenido a mi portafolio</p>
+              <p className="text-purple-400 text-lg">Bienvenido a mi portafolio</p>
               <h1 className="text-5xl md:text-6xl font-bold text-white">
                 Desarrollador
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-200/70 to-purple-600"> Full Stack</span>

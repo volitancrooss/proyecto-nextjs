@@ -57,7 +57,7 @@ export default function LoginPage() {
 
     return (
         <div className="min-h-screen flex flex-col lg:grid lg:grid-cols-2 bg-neutral-900 text-white font-sans selection:bg-indigo-500/30">
-            <div className="flex items-center justify-center p-8 bg-neutral-950 order-1 lg:order-2">
+            <div className="flex items-center justify-center p-8 bg-neutral-950 order-2 lg:order-2">
                 <div className="w-full max-w-md space-y-8">
                     <div className="text-center lg:text-left">
                         <h2 className="text-3xl font-bold tracking-tight text-white">
@@ -153,8 +153,8 @@ export default function LoginPage() {
                 </div>
             </div>
 
-            {/* Purple Visual Section - Aparece debajo en móvil */}
-            <div className="flex flex-col justify-between p-8 lg:p-12 bg-indigo-600 relative overflow-hidden order-2 lg:order-1 min-h-[400px] lg:min-h-0">
+            {/* Purple Visual Section - Aparece encima en móvil */}
+            <div className="flex flex-col justify-between p-8 lg:p-12 bg-indigo-600 relative overflow-hidden order-1 lg:order-1 min-h-[400px] lg:min-h-0">
                 <div className="absolute inset-0 bg-purple-900 opacity-90"></div>
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-600/20 via-transparent to-transparent"></div>
 

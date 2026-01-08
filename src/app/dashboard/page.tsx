@@ -509,7 +509,6 @@ export default function DashboardPage() {
                             </div>
                         </div>
 
-                        {/* User Projects List */}
                         <div>
                             <h4 className="text-lg font-semibold text-white ml-5 mb-5 mt-5">Mis Proyectos Recientes</h4>
                             <div className="space-y-3 m-5">
