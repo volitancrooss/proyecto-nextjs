@@ -1,5 +1,7 @@
 # Portfolio y Gestor de Proyectos - Volitancrooss
 
+![alt text](logov.jpg)
+
 ¡Hola! Este es el repositorio de mi portafolio personal y panel de gestión. Básicamente, es una aplicación web `Full Stack` donde muestro quién soy y qué hago, pero también incluye una sección privada (Dashboard) totalmente funcional para administrar mis propios proyectos desde dentro.
 
 ## ¿De qué va el proyecto?
